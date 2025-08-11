@@ -1,0 +1,402 @@
+[
+  {
+    "en": "curriculum",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "assignment",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "grade",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "improve",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "efficient",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "syllabus",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "semester",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "attendance",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "presentation",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "rubric",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "assessment",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "plagiarism",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "tuition",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "scholarship",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "deadline",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "enroll",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "lecture",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "revision",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "summary",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "outline",
+    "he": "",
+    "topic": "education"
+  },
+  {
+    "en": "device",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "update",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "access",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "privacy",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "influence",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "algorithm",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "database",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "network",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "bandwidth",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "security",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "authentication",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "encryption",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "malware",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "backup",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "cloud",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "interface",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "response",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "latency",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "optimize",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "deploy",
+    "he": "",
+    "topic": "technology"
+  },
+  {
+    "en": "balanced diet",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "exercise",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "stress",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "benefit",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "reduce",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "symptom",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "treatment",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "diagnosis",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "prevention",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "hydration",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "immune system",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "injury",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "recovery",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "appointment",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "allergy",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "fatigue",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "nutrient",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "habit",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "pulse",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "blood pressure",
+    "he": "",
+    "topic": "health"
+  },
+  {
+    "en": "opinion",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "evidence",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "recommend",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "compare",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "contrast",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "support",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "however",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "therefore",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "although",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "despite",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "advantage",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "disadvantage",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "challenge",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "solution",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "result",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "cause",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "effect",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "trend",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "impact",
+    "he": "",
+    "topic": "general"
+  },
+  {
+    "en": "significant",
+    "he": "",
+    "topic": "general"
+  }
+]

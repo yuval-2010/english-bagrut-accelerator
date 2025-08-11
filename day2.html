@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>יום 2 — Past Simple / Progressive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f172a;--card:#111827;--muted:#94a3b8;--text:#e5e7eb;--accent:#22d3ee}
+    *{box-sizing:border-box} body{margin:0;background:#0b1220;color:var(--text);font-family:Heebo,Rubik,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:#93c5fd;text-decoration:none} .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(15,23,42,.7);backdrop-filter:blur(8px);border-bottom:1px solid #1f2937;z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:10px 24px}
+    .links{display:flex;gap:14px;flex-wrap:wrap} .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 16px;border-radius:9999px;border:0;background:linear-gradient(135deg,#22d3ee,#60a5fa);color:#0b1220;font-weight:800;cursor:pointer}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:18px}
+    h1{font-size:clamp(28px,4vw,46px)} h2{font-size:clamp(22px,2.6vw,30px)} h3{font-size:clamp(18px,2.2vw,24px)}
+    .list{margin:0;padding-right:18px} .grid{display:grid;gap:18px;grid-template-columns:repeat(12,1fr)} .col-4{grid-column:span 4} .col-6{grid-column:span 6} .col-12{grid-column:span 12}
+    @media(max-width:900px){.col-4,.col-6{grid-column:span 12}}
+    .muted{color:var(--muted)} .chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:9999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04)}
+    .small{font-size:13px} .input,textarea,select{width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.03);color:var(--text)}
+    .grid-cards{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+    .footer{margin:38px 0 8px 0;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="brand"><a href="index.html" style="color:#e5e7eb;text-decoration:none">Boost<span style="color:#22d3ee">•</span>English</a></div>
+      <div class="links">
+        <a href="index.html#plan">תוכנית יומית</a>
+        <a href="vocab.html">אוצר מילים</a>
+        <a href="my-words.html">המילים שלי</a>
+        <a href="reading.html">קריאה</a>
+      </div>
+      <a class="btn" href="index.html#plan">תחזור לתכנית</a>
+    </nav>
+  </header>
+  <main class="container">
+
+  <section class="card">
+    <h1>יום 2: Past Simple / Progressive</h1>
+    <p class="muted">שיעור ממוקד ל-Past Simple / Progressive. קרא, תרגל, ואז המשך ליום הבא.</p>
+    <h3>מה לומדים היום</h3>
+    <ul class="list">
+      <li>Finished past actions</li><li>While/when patterns</li><li>Regular vs. irregular verbs</li>
+    </ul>
+    <div class="grid" style="margin-top:12px">
+      <div class="col-6 card">
+        <h3>הסבר ודוגמאות</h3>
+        <ul class="list small">
+          <li>I usually <b>study</b> in the evening.</li>
+          <li>Right now, I <b>am studying</b> for the test.</li>
+        </ul>
+      </div>
+      <div class="col-6 card">
+        <h3>טיפים</h3>
+        <ul class="list small">
+          <li>זיהוי מילות זמן.</li>
+          <li>הבנה מה קורה עכשיו לעומת הרגל.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card"><h3>תרגול קצר</h3><form id="qf"><div class="card" style="margin-top:8px"><div>1. Yesterday I ___ (walk) home.</div><label style="display:block;margin:6px 0"><input type="radio" name="q0" value="walk"> walk</label><label style="display:block;margin:6px 0"><input type="radio" name="q0" value="walked"> walked</label><label style="display:block;margin:6px 0"><input type="radio" name="q0" value="was walking"> was walking</label></div><div class="card" style="margin-top:8px"><div>2. I ___ (walk) when it rained.</div><label style="display:block;margin:6px 0"><input type="radio" name="q1" value="walked"> walked</label><label style="display:block;margin:6px 0"><input type="radio" name="q1" value="was walking"> was walking</label><label style="display:block;margin:6px 0"><input type="radio" name="q1" value="am walking"> am walking</label></div><button class="btn" type="submit">בדוק</button><div id="res" class="small" style="margin-top:8px"></div></form></div>
+    <div style="margin-top:12px" class="small"><a href="index.html#plan">← חזרה לתכנית</a> • <a href="day3.html">ליום הבא →</a></div>
+  </section>
+  <script>
+    (function(){
+      var f=document.getElementById('qf'); if(!f) return;
+      var A=["walked", "was walking"];
+      f.addEventListener('submit', function(e){
+        e.preventDefault(); var c=0;
+        for(var i=0;i<A.length;i++){ var chosen=new FormData(f).get('q'+i); if(chosen===A[i]) c++; }
+        document.getElementById('res').textContent='ציון: '+c+'/'+A.length;
+      });
+    })();
+  </script>
+
+    <div class="footer">נבנה עבור תלמידי כיתה י׳ — מאיץ לבגרות באנגלית • גרסה 2.0</div>
+  </main>
+</body>
+</html>
