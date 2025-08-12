@@ -1,0 +1,18 @@
+<!doctype html><html lang="he" dir="rtl"><meta charset="utf-8">
+<title>Redirect…</title>
+<script>
+/* Redirect any direct path (e.g., /day1.html) back into the SPA hash router */
+(function(){
+  var repo = '/english-bagrut-accelerator'; // adjust if repo name changes
+  var path = location.pathname.replace(repo,'').replace(/^\/+/, '');
+  var m = path.match(/^day(\d+)\.html$/);
+  var hash = m ? '/plan/'+m[1] : '/';
+  location.replace(repo + '/#' + hash);
+})();
+</script>
+<body style="font-family:system-ui;background:#0e0f13;color:#f6f7fb">
+  <div style="max-width:720px;margin:20vh auto;padding:24px;background:#171923;border:1px solid #2a2f3a;border-radius:16px">
+    מעביר אותך לדף הראשי… אם זה לא קורה, <a href="./#/" style="color:#9fd1ff">לחץ כאן</a>.
+  </div>
+</body>
+</html>
