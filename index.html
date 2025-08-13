@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Bagrut Accelerator</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="container">
+  <header class="header">
+    <h1>English Bagrut Accelerator</h1>
+    <nav>
+      <a href="#/" id="navHome">בית</a>
+      <a href="#/practice" id="navPractice">תרגול</a>
+      <a href="#/progress" id="navProgress">התקדמות</a>
+    </nav>
+  </header>
+
+  <section id="view-auth" class="card view">
+    <h2>כניסה / הרשמה</h2>
+    <div class="grid2">
+      <div>
+        <h3>כניסה</h3>
+        <input id="loginEmail" placeholder="אימייל">
+        <input id="loginPass" type="password" placeholder="סיסמה">
+        <button id="btnLogin">התחבר</button>
+        <div id="authMsg" class="muted"></div>
+      </div>
+      <div>
+        <h3>הרשמה</h3>
+        <input id="regName" placeholder="שם מלא">
+        <input id="regEmail" placeholder="אימייל">
+        <input id="regPass" type="password" placeholder="סיסמה (8+)">
+        <button id="btnRegister">הרשמה</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-dash" class="card view" hidden>
+    <div class="row">
+      <h2>שלום, <span id="who"></span></h2>
+      <button id="btnLogout">התנתק</button>
+    </div>
+    <h3>בחירת יחידות</h3>
+    <div id="units" class="chips"></div>
+    <button id="btnSaveUnits">שמירה</button>
+    <p class="muted">טיפ: אפשר לעבור ל־<a href="#/practice">תרגול</a> אחרי שמירת יחידות.</p>
+  </section>
+
+  <section id="view-practice" class="card view" hidden>
+    <h2>תרגול</h2>
+    <div class="row">
+      <div class="chips" id="catTabs"></div>
+      <div id="unitBadge"></div>
+    </div>
+    <div id="topics" class="grid"></div>
+    <hr>
+    <div id="lessons"></div>
+    <div id="exArea"></div>
+  </section>
+
+  <section id="view-progress" class="card view" hidden>
+    <h2>התקדמות</h2>
+    <div id="progressBody"></div>
+  </section>
+
+  <footer class="muted">Static SPA for GitHub Pages — data in localStorage</footer>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

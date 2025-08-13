@@ -1,0 +1,484 @@
+{
+  "units": [
+    {
+      "code": "3",
+      "title": "Unit 3 — Fundamentals"
+    },
+    {
+      "code": "4",
+      "title": "Unit 4 — Developing Skills"
+    },
+    {
+      "code": "5",
+      "title": "Unit 5 — Advanced & Exam Skills"
+    }
+  ],
+  "topics": [
+    {
+      "id": "9bb7f156-34c2-4be7-838f-3f564ad2b918",
+      "unit": "3",
+      "category": "reading",
+      "title": "Main Idea & Details"
+    },
+    {
+      "id": "67e7ed33-a3ad-40eb-8bed-d181e3b36ee4",
+      "unit": "3",
+      "category": "grammar",
+      "title": "Present Simple vs. Continuous"
+    },
+    {
+      "id": "cc981510-fc6a-44a8-bcee-3cd33b0750b1",
+      "unit": "3",
+      "category": "vocab",
+      "title": "Everyday Phrasal Verbs"
+    },
+    {
+      "id": "a24fb9ac-1f7a-46ab-91f4-7a118254fdf4",
+      "unit": "3",
+      "category": "exams",
+      "title": "Module C Warm‑up"
+    },
+    {
+      "id": "e0ab4576-5944-4700-bf28-92b030d582a6",
+      "unit": "4",
+      "category": "reading",
+      "title": "Structure & Inference"
+    },
+    {
+      "id": "2f8b5172-d52f-4645-a242-111a54b6ccd5",
+      "unit": "4",
+      "category": "grammar",
+      "title": "Modals — Advice & Obligation"
+    },
+    {
+      "id": "f2c5f440-5494-420c-b7a7-b5f972eb1888",
+      "unit": "4",
+      "category": "vocab",
+      "title": "Academic Wordlist A"
+    },
+    {
+      "id": "bf7eb2df-d23a-466c-8be1-ca87314213c5",
+      "unit": "4",
+      "category": "exams",
+      "title": "Module E Sampler"
+    },
+    {
+      "id": "09d98a0a-e620-4fc2-8160-c21d38d284bd",
+      "unit": "5",
+      "category": "reading",
+      "title": "Advanced Inference"
+    },
+    {
+      "id": "8f69f3e5-dd88-4dc0-a925-287d93988d5f",
+      "unit": "5",
+      "category": "grammar",
+      "title": "Mixed Conditionals"
+    },
+    {
+      "id": "75d679cc-0ad7-4f88-853b-a1e0a3039628",
+      "unit": "5",
+      "category": "vocab",
+      "title": "Tech Collocations"
+    },
+    {
+      "id": "0d04dcd4-3b36-4282-ad23-f59a6dfa21f8",
+      "unit": "5",
+      "category": "exams",
+      "title": "Module G Simulation"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "07496847-6568-42ec-9b78-6f66bbc1fe21",
+      "topic_title": "Main Idea & Details",
+      "unit": "3",
+      "category": "reading",
+      "title": "Urban Gardens",
+      "objective": [
+        "main idea",
+        "detail"
+      ],
+      "reading_html": "<p>Community gardens turn empty lots into green spaces. They supply fresh produce and strengthen neighborhood ties through shared work.</p>",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "9877e5f0-a0f8-471e-97a4-02142e8838c2",
+      "topic_title": "Present Simple vs. Continuous",
+      "unit": "3",
+      "category": "grammar",
+      "title": "Now vs. Routine",
+      "objective": [
+        "tenses",
+        "agreement"
+      ],
+      "reading_html": "",
+      "grammar_html": "<p>Use Present Simple for routines and facts (She goes). Use Present Continuous for actions happening now (She is going).</p>",
+      "duration_min": 20
+    },
+    {
+      "id": "1d803c48-d76e-49e7-bdda-415f911308a2",
+      "topic_title": "Everyday Phrasal Verbs",
+      "unit": "3",
+      "category": "vocab",
+      "title": "Phrasals 1",
+      "objective": [
+        "phrasal verbs",
+        "context"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "620bcc23-e85f-4662-a276-0f1b75ff9cd5",
+      "topic_title": "Module C Warm‑up",
+      "unit": "3",
+      "category": "exams",
+      "title": "Mini Exam A",
+      "objective": [
+        "timed practice"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "dc5e7839-b608-4ac5-a487-53ff6158dded",
+      "topic_title": "Structure & Inference",
+      "unit": "4",
+      "category": "reading",
+      "title": "Wildlife Corridors",
+      "objective": [
+        "structure",
+        "inference"
+      ],
+      "reading_html": "<p>Corridors link habitats so animals can move safely. Over time, this preserves genetic diversity by connecting isolated groups.</p>",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "bb9ab96c-f6f4-4d2b-8479-a0774fe3f391",
+      "topic_title": "Modals — Advice & Obligation",
+      "unit": "4",
+      "category": "grammar",
+      "title": "Should vs. Must",
+      "objective": [
+        "modals"
+      ],
+      "reading_html": "",
+      "grammar_html": "<p><b>should</b> gives advice; <b>must</b> shows strong obligation. Passive: be + V3 (The project was completed).</p>",
+      "duration_min": 20
+    },
+    {
+      "id": "c832ae91-405d-427e-a96d-2863b1f01f09",
+      "topic_title": "Academic Wordlist A",
+      "unit": "4",
+      "category": "vocab",
+      "title": "AWL Set A",
+      "objective": [
+        "AWL"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "9087bd72-ecdc-4e0c-9b15-5c061098a306",
+      "topic_title": "Module E Sampler",
+      "unit": "4",
+      "category": "exams",
+      "title": "Reading & Use of English",
+      "objective": [
+        "exam strategy"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "5be726ea-c16b-4bd3-8ece-74c9832700a0",
+      "topic_title": "Advanced Inference",
+      "unit": "5",
+      "category": "reading",
+      "title": "Urban Mobility Integration",
+      "objective": [
+        "inference",
+        "evidence"
+      ],
+      "reading_html": "<p>Cities integrate buses, trains, and bikes into unified apps. When commuters see faster mixed routes, many adopt multimodal travel.</p>",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "bde0c380-3ef0-4bc7-adcb-b57c6d52c05c",
+      "topic_title": "Mixed Conditionals",
+      "unit": "5",
+      "category": "grammar",
+      "title": "Past → Present",
+      "objective": [
+        "conditionals"
+      ],
+      "reading_html": "",
+      "grammar_html": "<p>If she had studied more, she would be calmer now. Past cause affects present result.</p>",
+      "duration_min": 20
+    },
+    {
+      "id": "a42b0c65-b7b5-4540-bf60-794961a2873b",
+      "topic_title": "Tech Collocations",
+      "unit": "5",
+      "category": "vocab",
+      "title": "Collocations I",
+      "objective": [
+        "collocations"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    },
+    {
+      "id": "ba4fed89-f1d2-410e-bd2f-903ffae58c66",
+      "topic_title": "Module G Simulation",
+      "unit": "5",
+      "category": "exams",
+      "title": "Mini Exam Set A",
+      "objective": [
+        "timed practice",
+        "report"
+      ],
+      "reading_html": "",
+      "grammar_html": "",
+      "duration_min": 20
+    }
+  ],
+  "exercises": [
+    {
+      "id": "56fae698-7c0a-4e43-bb13-500b0fbbfafe",
+      "lesson_id": "07496847-6568-42ec-9b78-6f66bbc1fe21",
+      "qtype": "MCQ",
+      "prompt": "What is the main idea?",
+      "options": [
+        "Gardens are expensive",
+        "Gardens improve communities",
+        "Gardens cause traffic",
+        "Gardens need many tools"
+      ],
+      "answer": "B",
+      "hint": "look for overall message",
+      "rationale": "Focus is on benefits to community."
+    },
+    {
+      "id": "3f1c0331-ad49-40ff-a323-8539a92ff131",
+      "lesson_id": "07496847-6568-42ec-9b78-6f66bbc1fe21",
+      "qtype": "MCQ",
+      "prompt": "Which detail supports the main idea?",
+      "options": [
+        "They require watering",
+        "They supply fresh produce",
+        "They are colorful",
+        "They have fences"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "963f3bf7-b595-40d7-86cc-1242c6eac435",
+      "lesson_id": "9877e5f0-a0f8-471e-97a4-02142e8838c2",
+      "qtype": "Cloze",
+      "prompt": "She ___ to school every day. (go)",
+      "answer": [
+        "goes"
+      ]
+    },
+    {
+      "id": "8774958d-a7a3-498f-a3fe-b0631a7aa8b4",
+      "lesson_id": "9877e5f0-a0f8-471e-97a4-02142e8838c2",
+      "qtype": "Cloze",
+      "prompt": "They ___ dinner right now. (cook)",
+      "answer": [
+        "are cooking",
+        "are-cooking"
+      ]
+    },
+    {
+      "id": "84d581d4-a3ce-46cd-8988-407ab48a0301",
+      "lesson_id": "1d803c48-d76e-49e7-bdda-415f911308a2",
+      "qtype": "Cloze",
+      "prompt": "She will ___ in the form later. (complete)",
+      "answer": [
+        "fill in",
+        "fill"
+      ]
+    },
+    {
+      "id": "6f5ebfc9-0431-488c-a5a2-e935e6dc0b0c",
+      "lesson_id": "1d803c48-d76e-49e7-bdda-415f911308a2",
+      "qtype": "Cloze",
+      "prompt": "Please ___ off your phone during class. (deactivate)",
+      "answer": [
+        "turn off",
+        "turn"
+      ]
+    },
+    {
+      "id": "ef601fda-1472-42c3-8557-795b87185c19",
+      "lesson_id": "620bcc23-e85f-4662-a276-0f1b75ff9cd5",
+      "qtype": "MCQ",
+      "prompt": "Which headline best matches a text about saving water?",
+      "options": [
+        "Road Safety Tips",
+        "Conserving Every Drop",
+        "Fast Cars of 2024",
+        "Holiday Desserts"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "6021fecd-15be-4e27-a2b6-5e1417c77591",
+      "lesson_id": "dc5e7839-b608-4ac5-a487-53ff6158dded",
+      "qtype": "MCQ",
+      "prompt": "What can be inferred?",
+      "options": [
+        "Isolated groups always thrive",
+        "Corridors may reduce isolation risks",
+        "Animals prefer cities",
+        "Corridors stop all dangers"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "2e3ba073-ba1d-4f88-a080-7d08ac298afb",
+      "lesson_id": "dc5e7839-b608-4ac5-a487-53ff6158dded",
+      "qtype": "MCQ",
+      "prompt": "Which structure best describes the paragraph?",
+      "options": [
+        "Problem–solution",
+        "Chronological",
+        "Cause–effect",
+        "Compare–contrast"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "b6554a7d-75c4-4def-88eb-4a87edd66a6b",
+      "lesson_id": "bb9ab96c-f6f4-4d2b-8479-a0774fe3f391",
+      "qtype": "Transform",
+      "prompt": "Turn to passive: The team completed the project.",
+      "answer": "The project was completed (by the team)."
+    },
+    {
+      "id": "6e92c067-0fd9-49d3-9bcf-70e1aeed978b",
+      "lesson_id": "bb9ab96c-f6f4-4d2b-8479-a0774fe3f391",
+      "qtype": "Cloze",
+      "prompt": "You ___ wear a helmet when cycling. (obligation)",
+      "answer": [
+        "must",
+        "have to"
+      ]
+    },
+    {
+      "id": "0caac7eb-8a9a-405a-9c40-4436e9e96e40",
+      "lesson_id": "c832ae91-405d-427e-a96d-2863b1f01f09",
+      "qtype": "Cloze",
+      "prompt": "The study aims to ___ the effects of sleep on memory.",
+      "answer": [
+        "assess",
+        "evaluate"
+      ]
+    },
+    {
+      "id": "4995a2b6-37f6-433d-9182-418fcb64fed0",
+      "lesson_id": "c832ae91-405d-427e-a96d-2863b1f01f09",
+      "qtype": "Cloze",
+      "prompt": "A ___ sample improves the reliability of results.",
+      "answer": [
+        "large",
+        "sizable",
+        "bigger"
+      ]
+    },
+    {
+      "id": "f9fc4b3d-1a3b-428b-8c77-fca18245ab89",
+      "lesson_id": "9087bd72-ecdc-4e0c-9b15-5c061098a306",
+      "qtype": "MCQ",
+      "prompt": "“Author’s attitude” often asks you to…",
+      "options": [
+        "Quote a definition",
+        "Explain grammar rules",
+        "Identify tone/opinion",
+        "Summarize the plot"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "b1c0db12-3ece-4cb1-8327-de9666990302",
+      "lesson_id": "5be726ea-c16b-4bd3-8ece-74c9832700a0",
+      "qtype": "MCQ",
+      "prompt": "What is implied about the author’s view?",
+      "options": [
+        "Opposes integration",
+        "Supports private cars only",
+        "Favors coordinated transport",
+        "Neutral"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "b5aa8aee-d15b-4e8b-b925-32bc769c3f1b",
+      "lesson_id": "5be726ea-c16b-4bd3-8ece-74c9832700a0",
+      "qtype": "MCQ",
+      "prompt": "Which sentence supports your answer?",
+      "options": [
+        "Apps are confusing",
+        "Some commuters adopt multimodal travel",
+        "Tickets are expensive",
+        "Bikes are old"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "f522e3ad-d6c4-4883-b577-1b8757d2476a",
+      "lesson_id": "bde0c380-3ef0-4bc7-adcb-b57c6d52c05c",
+      "qtype": "Cloze",
+      "prompt": "If she ___ known the risks, she ___ have invested. (know / not)",
+      "answer": [
+        "had;wouldn't",
+        "had;would not"
+      ]
+    },
+    {
+      "id": "f96b2b80-ac6a-42be-95fd-9365120f9f22",
+      "lesson_id": "a42b0c65-b7b5-4540-bf60-794961a2873b",
+      "qtype": "Cloze",
+      "prompt": "The system can ______ heavy network loads.",
+      "answer": [
+        "withstand",
+        "handle",
+        "sustain"
+      ]
+    },
+    {
+      "id": "944590ee-01c7-467e-9750-97e4fd0e0a9d",
+      "lesson_id": "a42b0c65-b7b5-4540-bf60-794961a2873b",
+      "qtype": "Cloze",
+      "prompt": "Please provide a ____ analysis of the results.",
+      "answer": [
+        "comprehensive",
+        "thorough",
+        "in-depth"
+      ]
+    },
+    {
+      "id": "da62e286-6dc4-4b90-8bed-5dddacf6f047",
+      "lesson_id": "ba4fed89-f1d2-410e-bd2f-903ffae58c66",
+      "qtype": "MCQ",
+      "prompt": "Vocab‑in‑context asks you to…",
+      "options": [
+        "Translate word-by-word",
+        "Guess from surrounding clues",
+        "Use a dictionary only",
+        "Ignore meaning"
+      ],
+      "answer": "B"
+    }
+  ]
+}
