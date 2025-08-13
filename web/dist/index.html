@@ -1,0 +1,47 @@
+<!doctype html><html lang="he" dir="rtl"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>English Bagrut Accelerator</title><link rel="stylesheet" href="styles.css"/></head>
+<body><main class="container">
+<h1>English Bagrut Accelerator</h1><p>התחבר/י → בחר יחידות → תרגול.</p>
+<section class="card"><h3>כניסה</h3>
+<input id="email" placeholder="email@example.com">
+<input id="pass" type="password" placeholder="password (8+)">
+<button id="login">כניסה</button><div id="msg" class="muted"></div></section>
+<section class="card"><h3>הרשמה</h3>
+<input id="full" placeholder="שם מלא">
+<input id="remail" placeholder="email@example.com">
+<input id="rpass" type="password" placeholder="password (8+)">
+<button id="register">הרשמה</button></section>
+<section id="dash" class="card" hidden>
+<h3>דשבורד</h3><div id="me"></div>
+<div><label><input type="checkbox" value="3" class="u"> יחידה 3</label>
+<label><input type="checkbox" value="4" class="u"> יחידה 4</label>
+<label><input type="checkbox" value="5" class="u"> יחידה 5</label>
+<button id="saveUnits">שמירה</button></div>
+<h4>יחידות</h4><div id="units"></div></section>
+</main>
+<script>
+const API='/api'; let token=null;
+const q=s=>document.querySelector(s);
+q('#login').onclick=async()=>{
+  const r=await fetch(API+'/auth/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:q('#email').value,password:q('#pass').value})});
+  if(!r.ok){q('#msg').textContent='שגיאה';return} const {token:t}=await r.json(); token=t; loadMe();
+};
+q('#register').onclick=async()=>{
+  const r=await fetch(API+'/auth/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({full_name:q('#full').value,email:q('#remail').value,password:q('#rpass').value})});
+  q('#msg').textContent=r.ok?'נרשמת — התחבר/י':'שגיאה בהרשמה';
+};
+async function loadMe(){
+  const r=await fetch(API+'/me',{headers:{Authorization:'Bearer '+token}}); const data=await r.json();
+  q('#dash').hidden=false; q('#me').textContent=data.profile.full_name+' | יחידות: '+(data.units||[]).join(',');
+  document.querySelectorAll('.u').forEach(c=> c.checked=(data.units||[]).includes(c.value));
+  const units=await fetch(API+'/catalog/units').then(x=>x.json());
+  q('#units').innerHTML = units.map(u=>`<div class="unit">יחידה ${u.code} — ${u.title}</div>`).join('');
+}
+q('#saveUnits').onclick=async()=>{
+  const sel=[...document.querySelectorAll('.u')].filter(x=>x.checked).map(x=>x.value);
+  await fetch(API+'/me/units',{method:'PUT',headers:{'Content-Type':'application/json',Authorization:'Bearer '+token},body:JSON.stringify({unit_codes:sel})});
+  loadMe();
+};
+</script>
+</body></html>

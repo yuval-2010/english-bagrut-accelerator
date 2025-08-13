@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: english_platform
+      POSTGRES_USER: english_user
+      POSTGRES_PASSWORD: change_me
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U english_user"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    ports: ["5432:5432"]
+  api:
+    build: ./api
+    env_file: ./api/.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports: ["8080:8080"]
+    command: sh -c "npm run migrate && npm run seed && npm start"
+  web:
+    image: nginx:alpine
+    volumes:
+      - ./web/dist:/usr/share/nginx/html:ro
+      - ./web/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports: ["8088:80"]
