@@ -1,0 +1,22 @@
+{
+  "unit": "3",
+  "category": "Vocabulary",
+  "topic": "Phrasal Verbs (Basics)",
+  "title": "Everyday Phrasals",
+  "content": {
+    "passage": "בחר את הפועל המתאים.",
+    "questions": [
+      {
+        "qtype": "Cloze",
+        "prompt": "She will ___ up the application later (complete).",
+        "answer": "fill",
+        "accept": [
+          "fill in",
+          "fill up"
+        ],
+        "hint": "צירוף עם fill ___",
+        "okMsg": "כן!"
+      }
+    ]
+  }
+}

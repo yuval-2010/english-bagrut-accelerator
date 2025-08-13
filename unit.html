@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>יחידה</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&family=Heebo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <a href="index.html" class="btn" aria-label="חזרה">← חזרה</a>
+    <h1 id="title">יחידה</h1>
+    <p class="unit-sub">בחר קטגוריה בתוך היחידה:</p>
+    <section class="categories">
+      <article class="cat-card" tabindex="0" data-cat="vocab"><h3>אוצר מילים</h3><div class="cat-meta">AWL, קולוקציות, Phrasal Verbs</div></article>
+      <article class="cat-card" tabindex="0" data-cat="reading"><h3>קריאה</h3><div class="cat-meta">Main Idea, Inference</div></article>
+      <article class="cat-card" tabindex="0" data-cat="exams"><h3>מבחנים לדוגמה</h3><div class="cat-meta">בחינה/למידה</div></article>
+      <article class="cat-card" tabindex="0" data-cat="grammar"><h3>גרמר</h3><div class="cat-meta">Tenses, Conditionals</div></article>
+    </section>
+  </main>
+  <script type="module">
+    import {go, getParam} from './js/app.js';
+    const u = getParam('u') || '5';
+    document.getElementById('title').textContent = `יחידה ${u}`;
+    document.querySelectorAll('.cat-card').forEach(el=>{
+      el.addEventListener('click', ()=> go(`browse.html?cat=${el.dataset.cat}&u=${u}`));
+      el.addEventListener('keyup', (e)=> (e.key==='Enter'||e.key===' ') && go(`browse.html?cat=${el.dataset.cat}&u=${u}`));
+    });
+  </script>
+</body>
+</html>

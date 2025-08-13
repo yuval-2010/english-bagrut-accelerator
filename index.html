@@ -2,27 +2,65 @@
 <html lang="he" dir="rtl">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>English Bagrut Accelerator</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>אנגלית — יחידות 3/4/5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&family=Heebo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container" style="display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap">
-      <div>
-        <h1>English Bagrut Accelerator</h1>
-        <div class="sub">מסלול מואץ לבגרות באנגלית — 3/4/5 יח"ל</div>
-      </div>
-      <nav id="top-nav" class="row"></nav>
-    </div>
-  </header>
+  <main class="container">
+    <h1>בחר יחידה</h1>
+    <p class="unit-sub">תוכן מקיף ומותאם ל-3/4/5. לחיצה פותחת תרגול בתוך האתר.</p>
+    <section class="units" id="units">
+      <article class="unit-card" tabindex="0" data-unit="3">
+        <div class="unit-title">יחידה 3</div>
+        <div class="unit-sub">יסודות + קריאה בינונית + גרמר בסיסי-מתקדם</div>
+      </article>
+      <article class="unit-card" tabindex="0" data-unit="4">
+        <div class="unit-title">יחידה 4</div>
+        <div class="unit-sub">Inference, מבנה טקסט, דיוק אוצר מילים</div>
+      </article>
+      <article class="unit-card" tabindex="0" data-unit="5">
+        <div class="unit-title">יחידה 5</div>
+        <div class="unit-sub">טקסטים עיוניים, מסקנות מורכבות, גרמר מתקדם</div>
+      </article>
+    </section>
 
-  <main id="app" class="container" aria-live="polite"></main>
+    <h2 style="margin-top:48px">קטגוריות</h2>
+    <section class="categories" id="categories">
+      <article class="cat-card" tabindex="0" data-cat="vocab">
+        <h3>אוצר מילים</h3>
+        <div class="cat-meta">AWL, קולוקציות, Phrasal Verbs, SRS</div>
+      </article>
+      <article class="cat-card" tabindex="0" data-cat="reading">
+        <h3>קריאה</h3>
+        <div class="cat-meta">Main Idea, Detail, Inference, Text Structure</div>
+      </article>
+      <article class="cat-card" tabindex="0" data-cat="exams">
+        <h3>מבחנים לדוגמה</h3>
+        <div class="cat-meta">מצב בחינה/למידה, ניתוח מיומנויות</div>
+      </article>
+      <article class="cat-card" tabindex="0" data-cat="grammar">
+        <h3>גרמר</h3>
+        <div class="cat-meta">Tenses, Conditionals, Passive, Clauses</div>
+      </article>
+    </section>
 
-  <footer class="container" style="padding-bottom:40px">
-    <span>"פותח על ידי יובל מיכאלי "</span>
-  </footer>
+    <footer>גרסה ראשונית — בלתי הורסה (Non-destructive). ניתן להוסיף ל-Git כמודול/תיקייה חדשה.</footer>
+  </main>
 
   <script type="module" src="js/app.js"></script>
+  <script type="module">
+    import {go} from './js/app.js';
+    document.querySelectorAll('.unit-card').forEach(el=>{
+      el.addEventListener('click', ()=> go(`unit.html?u=${el.dataset.unit}`));
+      el.addEventListener('keyup', (e)=> (e.key==='Enter'||e.key===' ') && go(`unit.html?u=${el.dataset.unit}`));
+    });
+    document.querySelectorAll('.cat-card').forEach(el=>{
+      el.addEventListener('click', ()=> go(`browse.html?cat=${el.dataset.cat}`));
+      el.addEventListener('keyup', (e)=> (e.key==='Enter'||e.key===' ') && go(`browse.html?cat=${el.dataset.cat}`));
+    });
+  </script>
 </body>
 </html>

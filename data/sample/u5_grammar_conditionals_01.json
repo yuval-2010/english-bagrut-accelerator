@@ -1,0 +1,22 @@
+{
+  "unit": "5",
+  "category": "Grammar",
+  "topic": "Conditionals",
+  "title": "Mixed Conditionals",
+  "content": {
+    "passage": "סקירה קצרה: Type 0–3 + Mixed.",
+    "questions": [
+      {
+        "qtype": "Cloze",
+        "prompt": "If he ___ known the risk, he ___ have invested.",
+        "answer": "had;wouldn't",
+        "accept": [
+          "had;would not",
+          "hadn't;wouldn't"
+        ],
+        "hint": "עבר מושלם + wouldn't have V3",
+        "okMsg": "מעולה — Mixed Conditional."
+      }
+    ]
+  }
+}

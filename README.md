@@ -1,23 +1,27 @@
-# English Bagrut Accelerator — v3 (multi-file SPA)
+# English Units (3/4/5) — Elevated UI (Non-Destructive Add-on)
 
-- שמרנו על העיצוב כפי שהוא (מצב כהה, כרטיסים, גריד).
-- כל הפיצ'רים שביקשת: מסלולי 3/4/5 יח"ל, תכנית 14 יום, אוצר מילים (כרטיסיות), "המילים שלי", דף מילה, דף קריאה, ראוטינג פנימי.
-- אין תלות חיצונית; עובד על GitHub Pages.
+**Goal:** add this folder to your repo as-is (no need to delete existing files).  
+All pages are standalone and can live under a subpath (e.g., `/english/`).
 
-## מבנה קבצים
-- `index.html` — דף ראשי + רכיבי SPA (נטען `js/app.js`)
-- `404.html` — הפניה אוטומטית חזרה לראוטר (למקרה של כניסה לנתיב ישן/עמוד שנמחק)
-- `assets/style.css` — עיצוב (שומר על המראה הנוכחי)
-- `js/app.js` — רואוטר, מסכים, לוגיקה
-- `data/syllabus.json` — תוכן מסלולים ו-14 ימים
-- `data/vocab.json` — מאגר מילים התחלתי
+## Files
+- `index.html` — home (pick Unit 3/4/5 + categories)
+- `unit.html` — per-unit landing (reads `?u=3|4|5`)
+- `browse.html` — topic list per unit/category (reads `?u=..&cat=..`)
+- `exercise.html` — interactive practice (reads `?id=..`)
+- `styles.css` — design system + elevation tokens
+- `js/app.js` — minimal router/helpers + MCQ/Cloze components
+- `data/sample/` — sample content (non-official placeholders)
 
-## העלאה ל-GitHub Pages
-1. מחק קבצים ישנים (השאר CNAME אם יש) או דרוס אותם.
-2. העלה את כל התיקייה (כולל `data/`, `assets/`, `js/`) לשורש הריפו.
-3. ודא: Settings → Pages → Deploy from a branch → Branch: `main` / Folder: `/ (root)`.
-4. המתן 1–2 דקות ורענן את האתר.
+## Usage
+- Open `index.html` locally or deploy under your site.
+- Add more exercises by appending to `data/sample/index.json` and creating matching `{id}.json` files.
+- Keep RTL and accessibility (`dir="rtl"`, focus styles, ARIA roles).
 
-## הרחבה
-- הוסף עוד מילים ל-`data/vocab.json` (פורמט w/t/ex).
-- ערוך את מסלולי הלמידה וימי התוכנית ב-`data/syllabus.json`.
+## Integration (safe)
+- Put the entire `english-site-elevated/` folder next to your existing app.
+- Link to it from your current nav (e.g., add a menu item pointing to `english-site-elevated/index.html`).
+- No global JS/CSS collisions: selectors are scoped; colors & fonts via CSS vars.
+
+## Notes
+- Content here is processed for learning only; replace with MOE-sourced items as needed.
+- To enable "Exam mode": toggle the switch in `exercise.html` (hides immediate feedback).

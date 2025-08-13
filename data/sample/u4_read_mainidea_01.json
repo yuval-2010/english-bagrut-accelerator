@@ -1,0 +1,36 @@
+{
+  "unit": "4",
+  "category": "Reading",
+  "topic": "Main Idea",
+  "title": "Wildlife Corridors",
+  "content": {
+    "passage": "<em>קטע מעובד ללמידה:</em> Wildlife corridors link fragmented habitats, allowing species to migrate and maintain genetic diversity.",
+    "questions": [
+      {
+        "qtype": "MCQ",
+        "prompt": "מה הרעיון המרכזי?",
+        "options": [
+          {
+            "key": "A",
+            "text": "מסדרונות פוגעים בגיוון"
+          },
+          {
+            "key": "B",
+            "text": "מסדרונות מסייעים לניידות וגיוון גנטי"
+          },
+          {
+            "key": "C",
+            "text": "מסדרונות מתאימים רק לעופות"
+          },
+          {
+            "key": "D",
+            "text": "מסדרונות מונעים הגירה"
+          }
+        ],
+        "answer": "B",
+        "hint": "חפש מילים כמו link/allow",
+        "okMsg": "יפה!"
+      }
+    ]
+  }
+}
